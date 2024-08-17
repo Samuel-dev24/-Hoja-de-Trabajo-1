@@ -1,5 +1,4 @@
-
-html {
+/* Estilos generales */html {
     scroll-behavior: smooth;
     height: 100%;
 }
@@ -8,62 +7,25 @@ body {
     font-family: cursive;
     margin: 5%;
     margin-top: 2%;
-    background-color: rgba(212, 225, 233, 0.967);
-    padding-top: 60px; 
+    background-color: rgba(40, 97, 133, 0.967); 
 }
 
-
-.navbar {
-    background-color: rgb(159, 223, 226);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+#destino, h3 {
+    color: rgb(56, 56, 156);
 }
 
-.nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-item {
-    margin: 0 20px;
-}
-
-.nav-item a {
-    color: blue;
-    text-decoration: none;
-    display: block;
-    padding: 15px 15px;
-}
-
-.nav-item a:hover {
-    background-color: skyblue;
-    border-radius: 5px;
-}
-
-h1, h3 {
-    color: blue;
-}
-
-.tituloIten{
+.tituloIten {
     text-align: center;
     margin-top: auto;
 }
 
-/* Estilo para las secciones */
-section {
+/* Estilo para las secciones */section {
     scroll-behavior: smooth;
-    padding: 60px 20px;
+    padding: 60px20px;
     margin-top: 50px;
 }
 
-/* Estilo para la tabla de Itinerarios */
-table {
+/* Estilo para la tabla de Itinerarios */table {
     width: 80%;
     border-collapse: collapse;
     margin: 20px auto;
@@ -89,11 +51,202 @@ tr:hover {
     background-color: #ddd;
 }
 
-/* Estilo para el pie de página */
-footer {
+/* Estilo para el pie de página */footer {
     background-color: rgb(159, 223, 226);
-    padding: 10px 20px;
+    padding: 10px20px;
     margin-top: 10%;
     text-shadow: none;
     width: 100%;
+}
+
+img {
+    width: 400px;
+    height: 600px;
+}
+
+.imgAtracciones {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#Villa {
+    width: 290px;
+    height: 400px;
+}
+
+/* Media Queries *//* Estilo para dispositivos móviles (menos de 600px) */@media (max-width: 600px) {
+    body {
+        margin: 2%;
+    }
+
+    section {
+        padding: 30px10px;
+        margin-top: 30px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    im/* Estilos generales */html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    font-family: cursive;
+    margin: 5%;
+    margin-top: 2%;
+    background-color: rgba(40, 97, 133, 0.967); 
+}
+
+#destino, h3 {
+    color: rgb(56, 56, 156);
+}
+
+.tituloIten {
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Estilo para las secciones */section {
+    scroll-behavior: smooth;
+    padding: 60px20px;
+    margin-top: 50px;
+}
+
+/* Estilo para la tabla de Itinerarios */table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #0aa0cd;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilo para el pie de página */footer {
+    background-color: rgb(159, 223, 226);
+    padding: 10px20px;
+    margin-top: 10%;
+    text-shadow: none;
+    width: 100%;
+}
+
+img {
+    width: 400px;
+    height: 600px;
+}
+
+.imgAtracciones {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#Villa {
+    width: 290px;
+    height: 400px;
+}
+
+/* Media Queries *//* Estilo para dispositivos móviles (menos de 600px) */@media (max-width: 600px) {
+    body {
+        margin: 2%;
+    }
+
+    section {
+        padding: 30px10px;
+        margin-top: 30px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    #Villa {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Estilo para tablets (600px a 900px) */@media (min-width: 600px) and (max-width: 900px) {
+    body {
+        margin: 4%;
+    }
+
+    section {
+        padding: 40px15px;
+        margin-top: 40px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    #Villa {
+        width: 80%;
+        height: auto;
+    }
+}
+g {
+        width: 100%;
+        height: auto;
+    }
+
+    #Villa {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Estilo para tablets (600px a 900px) */@media (min-width: 600px) and (max-width: 900px) {
+    body {
+        margin: 4%;
+    }
+
+    section {
+        padding: 40px15px;
+        margin-top: 40px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    #Villa {
+        width: 80%;
+        height: auto;
+    }
 }
